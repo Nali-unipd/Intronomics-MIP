@@ -4,11 +4,10 @@ Email: annalisa.scapolatiello@studenti.unipd.it
 
 # **Intronomics-MIP Pipeline**
 
-
-## Description
+## **Description**
 The Intronomics-MIP pipeline is designed to analyze multi-locus targeted sequencing data. It automates the haplotype generation process, providing a robust and scalable approach for analyzing genetic diversity.
 
-## Index
+## **Index**
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -17,17 +16,18 @@ The Intronomics-MIP pipeline is designed to analyze multi-locus targeted sequenc
 - [License](#license)
 - [Contacts](#contacts)
 
-## Requirements
+## **Requirements**
 - Snakemake v7.32.4
 - Cutadapt v2.8
 - FLASH v2.2.00
 - SeekDeep v3.0.1
 
-## Installation
+## **Installation**
 Provide instructions for installing the necessary dependencies.
 
-
+```bash
 bash install_dep.sh
+
 
 Feel free to modify any part as needed! If you need more help or additional sections, just let me know.
 
