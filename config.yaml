@@ -2,48 +2,51 @@
 # # Feel free to modify it as needed for your specific setup.
 #
 # # Write the path to SeekDeep after the ":".
-# seekdeep_path: /path/to/SeekDeep/
+seekdeep_path: /path/to/SeekDeep/
 #
 # # Write the path to FLASH after the ":".
-# flash2_path: /path/to/FLASH/bin/
+flash2_path: /path/to/FLASH/bin/
 #
 # # Write the path to fuse.sh (from BBMap) after the ":".
-# fuse.sh_path: /path/to/bbmap/
+fuse.sh_path: /path/to/bbmap/
 #
 # # Write the path to your list of samples after the ":".
 # # The list must contain only the sample names.
-# ind_list.txt: /path/to/sample_list.txt
+ind_list.txt: /path/to/sample_list.txt
 #
 # # Write the reverse adapter sequence.
-# reverse_adapter: YOUR_REVERSE_ADAPTER_SEQUENCE_HERE
+reverse_adapter: YOUR_REVERSE_ADAPTER_SEQUENCE_HERE
 #
 # # Write the reverse complement of the reverse adapter sequence.
-# rev_comp_rev_adapter: YOUR_REV_COMP_REVERSE_ADAPTER_SEQUENCE_HERE
+rev_comp_rev_adapter: YOUR_REV_COMP_REVERSE_ADAPTER_SEQUENCE_HERE
 #
 # # Write the forward adapter sequence.
-# forward_adapter: YOUR_FORWARD_ADAPTER_SEQUENCE_HERE
+forward_adapter: YOUR_FORWARD_ADAPTER_SEQUENCE_HERE
 #
 # # Write the reverse complement of the forward adapter sequence.
-# rev_comp_fow_adapter: YOUR_REV_COMP_FORWARD_ADAPTER_SEQUENCE_HERE
+rev_comp_fow_adapter: YOUR_REV_COMP_FORWARD_ADAPTER_SEQUENCE_HERE
 #
 # # Write the path to your working directory after the ":".
 # # The pipeline will create more folders inside it as it works.
-# working_dir: /path/to/your/working_directory/
+working_dir: /path/to/your/working_directory/
 #
 # # Write the path to your adapters file after the ":".
 # # Include the file name in the path.
-# adapters.txt: /path/to/adapters.txt
+adapters.txt: /path/to/adapters.txt
 #
 # # Write the path to your samples (reads) directory.
-# reads_path: /path/to/your/reads_directory/
+reads_path: /path/to/your/reads_directory/
 #
 # # Write the number of loci after the ":".
-# Nloci: NUMBER_OF_LOCI_HERE
+Nloci: NUMBER_OF_LOCI_HERE
 #
 # # Write the % (based on coverage) of alleles for the final table
 # # in presence of extra alleles in genotype, after the ":".
-# cumulativeSum: CUMULATIVE_SUM_VALUE_HERE
+cumulativeSum: CUMULATIVE_SUM_VALUE_HERE
 #
+# # Set the percentage of samples to keep the genepop of a locus. Default is 0.8
+# #
+Perc: 0.8 
 # # Change the number to suit your needs and your machine architecture.
-# Th_num: NUMBER_OF_THREADS_HERE
+Th_num: NUMBER_OF_THREADS_HERE
 #
