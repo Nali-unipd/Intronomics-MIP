@@ -21,10 +21,12 @@ The Intronomics-MIP pipeline is designed to analyze multi-locus targeted sequenc
 
 ## **Installation**
 
-```bash
 bash install_dep.sh
 
+---
+
 ## **Usage**
+
 Place your input files in the specified directory. The pipeline requires:
 FASTQ file with raw readings.
 A YAML configuration file to specify project parameters (e.g. file paths, library names, and filtering parameters).
@@ -33,8 +35,11 @@ Start the pipeline with Snakemake:
 snakemake --cores 8
 
 The main outputs will be generated in the directory specified in config.yaml
+
 -FASTA files for each locus
+
 -Haplotype Coverage Table
+
 -Haplotype Genepop format table
 
 
@@ -43,10 +48,14 @@ The main outputs will be generated in the directory specified in config.yaml
 Preparing Files Download the sample data and configuration file provided in the repository:
 
 git clone https://github.com/Nali-unipd/Intronomics-MIP.git
+
 cd Intronomics-MIP
 
 Execution Start the pipeline using the example configuration file:
-snakemake --cores 4 --configfile config_example.yaml
+
+ snakemake --cores 4 --configfile config_example.yaml
 
 
-Feel free to modify any part as needed! If you need more help or additional sections, just let me know.
+
+
+### Feel free to modify any part as needed! If you need more help or additional sections, just let me know.
